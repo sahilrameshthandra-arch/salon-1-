@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Luxe Salon & Hair Spa - Premium hair care, styling, and spa services">
+    <title>Luxe Salon & Hair Spa | Premium Hair Care & Styling</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">✂</span>
+                <span class="logo-text">Luxe Salon</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#team" class="nav-link">Our Team</a></li>
+                <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                <li><a href="#booking" class="nav-link btn-nav">Book Now</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-badge">Est. 2018</span>
+                <h1 class="hero-title">Where Beauty Meets <span class="highlight">Excellence</span></h1>
+                <p class="hero-description">Experience premium hair care, styling, and spa treatments in a luxurious environment. Our expert stylists bring your vision to life.</p>
+                <div class="hero-buttons">
+                    <a href="#booking" class="btn btn-primary">Book Appointment</a>
+                    <a href="#services" class="btn btn-secondary">Our Services</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-count="5000">0</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="15">0</span>
+                        <span class="stat-label">Expert Stylists</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="8">0</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="98">0</span>
+                        <span class="stat-label">Satisfaction %</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&h=1000&fit=crop" alt="Salon interior" class="hero-img">
+                    <div class="floating-card card-1">
+                        <span class="card-icon">✨</span>
+                        <div>
+                            <strong>Hair Cutting</strong>
+                            <small>Precision cuts</small>
+                        </div>
+                    </div>
+                    <div class="floating-card card-2">
+                        <span class="card-icon">🎨</span>
+                        <div>
+                            <strong>Color & Highlights</strong>
+                            <small>Custom shades</small>
+                        </div>
+                    </div>
+                    <div class="floating-card card-3">
+                        <span class="card-icon">💆</span>
+                        <div>
+                            <strong>Spa Treatments</strong>
+                            <small>Deep relaxation</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span class="scroll-text">Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Our Services</span>
+                <h2 class="section-title">Discover Our <span class="highlight">Premium Services</span></h2>
+                <p class="section-description">From precision cuts to luxurious spa treatments, we offer a complete range of services tailored to your unique style.</p>
+            </div>
+            <div class="services-grid">
+                <article class="service-card" data-category="hair">
+                    <div class="service-icon">✂</div>
+                    <h3>Precision Haircut</h3>
+                    <p>Expert cutting techniques tailored to your face shape and hair texture. Includes consultation, wash, cut, and style.</p>
+                    <div class="service-footer">
+                        <span class="service-price">From $65</span>
+                        <span class="service-duration">45 min</span>
+                    </div>
+                </article>
+                <article class="service-card" data-category="color">
+                    <div class="service-icon">🎨</div>
+                    <h3>Color & Highlights</h3>
+                    <p>Custom color formulations including balayage, ombre, babylights, and full color. Using premium, ammonia-free products.</p>
+                    <div class="service-footer">
+                        <span class="service-price">From $120</span>
+                        <span class="service-duration">2-3 hrs</span>
+                    </div>
+                </article>
+                <article class="service-card" data-category="treatment">
+                    <div class="service-icon">✨</div>
+                    <h3>Keratin Treatment</h3>
+                    <p>Smooth, frizz-free hair for up to 6 months. Brazilian keratin treatment with formaldehyde-free formula.</p>
+                    <div class="service-footer">
+                        <span class="service-price">From $250</span>
+                        <span class="service-duration">3 hrs</span>
+                    </div>
+                </article>
+                <article class="service-card" data-category="spa">
+                    <div class="service-icon">💆</div>
+                    <h3>Scalp Spa Therapy</h3>
+                    <p>Deep cleansing, exfoliation, and nourishing treatment for healthy scalp and hair growth. Includes head massage.</p>
+                    <div class="service-footer">
+                        <span class="service-price">From $85</span>
+                        <span class="service-duration">60 min</span>
+                    </div>
+                </article>
+                <article class="service-card" data-category="styling">
+                    <div class="service-icon">💍</div>
+                    <h3>Bridal & Event Styling</h3>
+                    <p>Complete bridal packages including trial, day-of styling, and touch-up kit. Available for parties and special events.</p>
+                    <div class="service-footer">
+                        <span class="service-price">From $200</span>
+                        <span class="service-duration">2-4 hrs</span>
+                    </div>
+                </article>
+                <article class="service-card" data-category="treatment">
+                    <div class="service-icon">🛁</div>
+                    <h3>Deep Conditioning</h3>
+                    <p>Intensive moisture and repair treatment with steam therapy. Restores damaged, dry, or chemically treated hair.</p>
+                    <div class="service-footer">
+                        <span class="service-price">From $55</span>
+                        <span class="service-duration">30 min</span>
+                    </div>
+                </article>
+                <article class="service-card" data-category="hair">
+                    <div class="service-icon">💇</div>
+                    <h3>Men's Grooming</h3>
+                    <p>Classic and modern cuts, beard trimming, hot towel shave, and scalp treatment designed specifically for men.</p>
+                    <div class="service-footer">
+                        <span class="service-price">From $45</span>
+                        <span class="service-duration">30 min</span>
+                    </div>
+                </article>
+                <article class="service-card" data-category="extensions">
+                    <div class="service-icon">💫</div>
+                    <h3>Hair Extensions</h3>
+                    <p>Premium 100% human hair extensions - tape-in, sew-in, and fusion methods. Color-matched and custom blended.</p>
+                    <div class="service-footer">
+                        <span class="service-price">From $300</span>
+                        <span class="service-duration">2-3 hrs</span>
+                    </div>
+                </article>
+                <article class="service-card" data-category="spa">
+                    <div class="service-icon">🧖</div>
+                    <h3>Luxury Spa Package</h3>
+                    <p>Full day of pampering: haircut, color, deep conditioning, scalp massage, facial, manicure & pedicure.</p>
+                    <div class="service-footer">
+                        <span class="service-price">From $450</span>
+                        <span class="service-duration">5-6 hrs</span>
+                    </div>
+                </article>
+            </div>
+            <div class="service-filters">
+                <button class="filter-btn active" data-filter="all">All Services</button>
+                <button class="filter-btn" data-filter="hair">Haircuts</button>
+                <button class="filter-btn" data-filter="color">Color</button>
+                <button class="filter-btn" data-filter="treatment">Treatments</button>
+                <button class="filter-btn" data-filter="spa">Spa</button>
+                <button class="filter-btn" data-filter="styling">Styling</button>
+                <button class="filter-btn" data-filter="extensions">Extensions</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=800&h=600&fit=crop" alt="Salon team" class="about-img">
+                    <div class="experience-badge">
+                        <span class="years">8+</span>
+                        <span class="text">Years of Excellence</span>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <span class="section-badge">About Us</span>
+                    <h2 class="section-title">Where Passion Meets <span class="highlight">Professionalism</span></h2>
+                    <p>Founded in 2018, Luxe Salon & Hair Spa has been the premier destination for discerning clients seeking exceptional hair care in a sophisticated, welcoming atmosphere.</p>
+                    <p>Our team of award-winning stylists continuously train in the latest techniques and trends from around the world. We believe that great hair is the foundation of confidence, and we're committed to helping you look and feel your absolute best.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <div>
+                                <strong>Premium Products</strong>
+                                <small>Only the finest, salon-exclusive brands</small>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <div>
+                                <strong>Ongoing Education</strong>
+                                <small>Stylists train monthly in latest techniques</small>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <div>
+                                <strong>Personalized Consultation</strong>
+                                <small>Every visit begins with a thorough consultation</small>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <div>
+                                <strong>Eco-Conscious</strong>
+                                <small>Sustainable practices & cruelty-free products</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Our Work</span>
+                <h2 class="section-title">Gallery of <span class="highlight">Transformations</span></h2>
+                <p class="section-description">Browse our portfolio of recent work and find inspiration for your next look.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="color">
+                    <img src="https://images.unsplash.com/photo-1544441893-675973e31985?w=600&h=800&fit=crop" alt="Balayage highlights">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category">Color</span>
+                        <h4>Sun-Kissed Balayage</h4>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="cut">
+                    <img src="https://images.unsplash.com/photo-1522338140262-f46f5913618a?w=600&h=800&fit=crop" alt="Precision bob cut">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category">Cut</span>
+                        <h4>Modern Textured Bob</h4>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="bridal">
+                    <img src="https://images.unsplash.com/photo-1495368036936-5e5576e5a7a6?w=600&h=800&fit=crop" alt="Bridal updo">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category">Bridal</span>
+                        <h4>Elegant Bridal Updo</h4>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="color">
+                    <img src="https://images.unsplash.com/photo-1555639148-f0f09849a8eb?w=600&h=800&fit=crop" alt="Creative color">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category">Color</span>
+                        <h4>Vibrant Fashion Color</h4>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="cut">
+                    <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=600&h=800&fit=crop" alt="Men's fade">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category">Men's</span>
+                        <h4>Skin Fade & Texture</h4>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="bridal">
+                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=800&fit=crop" alt="Bridal party">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category">Bridal</span>
+                        <h4>Bridal Party Styling</h4>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="extensions">
+                    <img src="https://images.unsplash.com/photo-1605497788044-5a32f8ddd79a?w=600&h=800&fit=crop" alt="Hair extensions">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category">Extensions</span>
+                        <h4>Seamless Extensions</h4>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="styling">
+                    <img src="https://images.unsplash.com/photo-1536195913768-5bbbba488a64?w=600&h=800&fit=crop" alt="Event styling">
+                    <div class="gallery-overlay">
+                        <span class="gallery-category">Styling</span>
+                        <h4>Red Carpet Waves</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="cut">Cuts</button>
+                <button class="filter-btn" data-filter="color">Color</button>
+                <button class="filter-btn" data-filter="styling">Styling</button>
+                <button class="filter-btn" data-filter="bridal">Bridal</button>
+                <button class="filter-btn" data-filter="extensions">Extensions</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Our Experts</span>
+                <h2 class="section-title">Meet Our <span class="highlight">Talented Team</span></h2>
+                <p class="section-description">Passionate professionals dedicated to bringing your hair dreams to life.</p>
+            </div>
+            <div class="team-grid">
+                <article class="team-card">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1594824851000-27381c886c70?w=400&h=500&fit=crop" alt="Sarah Mitchell">
+                        <div class="team-social">
+                            <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                            <a href="#" class="social-link" aria-label="Facebook">📘</a>
+                            <a href="#" class="social-link" aria-label="Pinterest">📌</a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Sarah Mitchell</h3>
+                        <span class="team-role">Creative Director / Senior Colorist</span>
+                        <p>12+ years specializing in custom color, balayage, and color correction. Certified Wella Master Color Expert.</p>
+                        <div class="team-specialties">
+                            <span class="specialty">Balayage</span>
+                            <span class="specialty">Color Correction</span>
+                            <span class="specialty">Creative Color</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="team-card">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=500&fit=crop" alt="Marcus Chen">
+                        <div class="team-social">
+                            <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                            <a href="#" class="social-link" aria-label="Facebook">📘</a>
+                            <a href="#" class="social-link" aria-label="Pinterest">📌</a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Marcus Chen</h3>
+                        <span class="team-role">Senior Stylist / Precision Cutting</span>
+                        <p>Expert in geometric cutting, textured layers, and modern barbering. Trained at Vidal Sassoon Academy, London.</p>
+                        <div class="team-specialties">
+                            <span class="specialty">Precision Cuts</span>
+                            <span class="specialty">Men's Grooming</span>
+                            <span class="specialty">Short Hair</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="team-card">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=500&fit=crop" alt="Elena Rodriguez">
+                        <div class="team-social">
+                            <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                            <a href="#" class="social-link" aria-label="Facebook">📘</a>
+                            <a href="#" class="social-link" aria-label="Pinterest">📌</a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>Elena Rodriguez</h3>
+                        <span class="team-role">Bridal & Event Specialist</span>
+                        <p>Creates stunning bridal looks and red-carpet styles. Featured in Modern Bride Magazine and local fashion shows.</p>
+                        <div class="team-specialties">
+                            <span class="specialty">Bridal Styling</span>
+                            <span class="specialty">Updos</span>
+                            <span class="specialty">Extensions</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="team-card">
+                    <div class="team-image">
+                        <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400&h=500&fit=crop" alt="James Thompson">
+                        <div class="team-social">
+                            <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                            <a href="#" class="social-link" aria-label="Facebook">📘</a>
+                            <a href="#" class="social-link" aria-label="Pinterest">📌</a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3>James Thompson</h3>
+                        <span class="team-role">Trichologist / Scalp Specialist</span>
+                        <p>Certified trichologist focusing on scalp health, hair loss treatments, and therapeutic spa services.</p>
+                        <div class="team-specialties">
+                            <span class="specialty">Scalp Therapy</span>
+                            <span class="specialty">Hair Loss</span>
+                            <span class="specialty">Keratin</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Client Love</span>
+                <h2 class="section-title">What Our <span class="highlight">Clients Say</span></h2>
+                <p class="section-description">Real experiences from our valued clients.</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonials-track" id="testimonials-track">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"Sarah is an absolute artist with color! I've been going to her for 5 years and she's never disappointed. My balayage always looks natural and grows out beautifully. The salon atmosphere is luxurious but welcoming."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face" alt="Jessica M." class="author-img">
+                            <div>
+                                <strong>Jessica M.</strong>
+                                <span>Regular client since 2019</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"Best haircut I've ever had. Marcus really listened to what I wanted and gave me a style that works with my natural texture. The hot towel treatment and scalp massage were incredible bonuses."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" alt="David R." class="author-img">
+                            <div>
+                                <strong>David R.</strong>
+                                <span>Men's grooming client</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"Elena did my hair and my bridesmaids' hair for my wedding. We all looked absolutely stunning and the styles held perfectly all night. She even came to our venue! Worth every penny."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face" alt="Amanda K." class="author-img">
+                            <div>
+                                <strong>Amanda K.</strong>
+                                <span>Bridal client, June 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"James helped me with my thinning hair concerns. His scalp analysis was thorough and the treatment plan he created has made a noticeable difference in just 3 months. So grateful for his expertise."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face" alt="Michael T." class="author-img">
+                            <div>
+                                <strong>Michael T.</strong>
+                                <span>Scalp therapy client</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"The extensions Elena put in look completely natural - no one can tell! She color-matched them perfectly and they've lasted 8 months with proper care. Best investment I've made for my hair."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face" alt="Sophie L." class="author-img">
+                            <div>
+                                <strong>Sophie L.</strong>
+                                <span>Extensions client</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-btn prev" id="prev-testimonial" aria-label="Previous testimonial">‹</button>
+                    <div class="slider-dots" id="slider-dots"></div>
+                    <button class="slider-btn next" id="next-testimonial" aria-label="Next testimonial">›</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <div class="booking-content">
+                <div class="booking-info">
+                    <span class="section-badge">Book Now</span>
+                    <h2 class="section-title">Reserve Your <span class="highlight">Appointment</span></h2>
+                    <p>Ready for your transformation? Book online in minutes. We'll confirm your appointment within 2 hours during business hours.</p>
+                    <div class="booking-details">
+                        <div class="detail">
+                            <span class="detail-icon">🕐</span>
+                            <div>
+                                <strong>Hours</strong>
+                                <small>Mon-Fri: 9am-8pm | Sat: 9am-6pm | Sun: 10am-4pm</small>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <span class="detail-icon">📍</span>
+                            <div>
+                                <strong>Location</strong>
+                                <small>123 Beauty Lane, Suite 100, Downtown</small>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <span class="detail-icon">📞</span>
+                            <div>
+                                <strong>Call Us</strong>
+                                <small>(555) 123-4567</small>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <span class="detail-icon">✉️</span>
+                            <div>
+                                <strong>Email</strong>
+                                <small>hello@luxesalon.com</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="booking-form" id="booking-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required placeholder="John">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required placeholder="Doe">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="(555) 000-0000">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="service">Service *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <optgroup label="Haircuts & Styling">
+                                    <option value="womens-cut">Women's Precision Cut - $65+</option>
+                                    <option value="mens-cut">Men's Cut & Grooming - $45+</option>
+                                    <option value="kids-cut">Children's Cut (12 & under) - $35</option>
+                                    <option value="blowout">Blowout & Style - $45</option>
+                                    <option value="updo">Special Event Updo - $85+</option>
+                                </optgroup>
+                                <optgroup label="Color Services">
+                                    <option value="single-process">Single Process Color - $85+</option>
+                                    <option value="highlights">Partial Highlights - $120+</option>
+                                    <option value="full-highlights">Full Highlights - $160+</option>
+                                    <option value="balayage">Balayage/Ombre - $180+</option>
+                                    <option value="color-correction">Color Correction - Consultation</option>
+                                    <option value="fashion-color">Fashion/Vivid Color - $150+</option>
+                                </optgroup>
+                                <optgroup label="Treatments">
+                                    <option value="keratin">Keratin Smoothing - $250+</option>
+                                    <option value="deep-conditioning">Deep Conditioning - $55+</option>
+                                    <option value="scalp-therapy">Scalp Spa Therapy - $85+</option>
+                                    <option value="olaplex">Olaplex Treatment - $65+</option>
+                                </optgroup>
+                                <optgroup label="Extensions & Specialty">
+                                    <option value="tape-extensions">Tape-in Extensions - $300+</option>
+                                    <option value="fusion-extensions">Fusion Extensions - $400+</option>
+                                    <option value="bridal-package">Bridal Package - $200+</option>
+                                    <option value="luxury-spa">Luxury Spa Day - $450+</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="stylist">Preferred Stylist</label>
+                            <select id="stylist" name="stylist">
+                                <option value="">No preference</option>
+                                <option value="sarah">Sarah Mitchell - Color Specialist</option>
+                                <option value="marcus">Marcus Chen - Precision Cutting</option>
+                                <option value="elena">Elena Rodriguez - Bridal & Extensions</option>
+                                <option value="james">James Thompson - Scalp & Treatments</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">Preferred Date *</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Preferred Time *</label>
+                            <select id="time" name="time" required>
+                                <option value="">Select time</option>
+                                <option value="09:00">9:00 AM</option>
+                                <option value="09:30">9:30 AM</option>
+                                <option value="10:00">10:00 AM</option>
+                                <option value="10:30">10:30 AM</option>
+                                <option value="11:00">11:00 AM</option>
+                                <option value="11:30">11:30 AM</option>
+                                <option value="12:00">12:00 PM</option>
+                                <option value="12:30">12:30 PM</option>
+                                <option value="13:00">1:00 PM</option>
+                                <option value="13:30">1:30 PM</option>
+                                <option value="14:00">2:00 PM</option>
+                                <option value="14:30">2:30 PM</option>
+                                <option value="15:00">3:00 PM</option>
+                                <option value="15:30">3:30 PM</option>
+                                <option value="16:00">4:00 PM</option>
+                                <option value="16:30">4:30 PM</option>
+                                <option value="17:00">5:00 PM</option>
+                                <option value="17:30">5:30 PM</option>
+                                <option value="18:00">6:00 PM</option>
+                                <option value="18:30">6:30 PM</option>
+                                <option value="19:00">7:00 PM</option>
+                                <option value="19:30">7:30 PM</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="notes">Special Requests / Notes</label>
+                        <textarea id="notes" name="notes" rows="4" placeholder="Any allergies, specific requests, or additional services..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Book Appointment</button>
+                    <p class="form-disclaimer">* By submitting, you agree to our <a href="#">cancellation policy</a> (24-hour notice required) and <a href="#">privacy policy</a>.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h2>Stay in Touch</h2>
+                    <p>Get exclusive offers, hair tips, and style inspiration delivered to your inbox.</p>
+                </div>
+                <form class="newsletter-form" id="newsletter-form">
+                    <input type="email" id="newsletter-email" name="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+                <p class="newsletter-note">We respect your privacy. Unsubscribe anytime.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <span class="logo-icon">✂</span>
+                        <span class="logo-text">Luxe Salon</span>
+                    </a>
+                    <p>Premium hair care and spa services since 2018. Where beauty meets excellence in every detail.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                        <a href="#" class="social-link" aria-label="Facebook">📘</a>
+                        <a href="#" class="social-link" aria-label="Pinterest">📌</a>
+                        <a href="#" class="social-link" aria-label="Yelp">⭐</a>
+                        <a href="#" class="social-link" aria-label="Google Reviews">📍</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#booking">Book Online</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Haircuts & Styling</a></li>
+                        <li><a href="#services">Color & Highlights</a></li>
+                        <li><a href="#services">Treatments & Spa</a></li>
+                        <li><a href="#services">Bridal & Events</a></li>
+                        <li><a href="#services">Hair Extensions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <ul class="contact-info">
+                        <li>📍 123 Beauty Lane, Suite 100</li>
+                        <li>📞 (555) 123-4567</li>
+                        <li>✉️ hello@luxesalon.com</li>
+                        <li>🕐 Mon-Fri: 9am-8pm</li>
+                        <li>🕐 Sat: 9am-6pm | Sun: 10am-4pm</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Luxe Salon & Hair Spa. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cancellation Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Booking Success Modal -->
+    <div class="modal" id="booking-modal">
+        <div class="modal-content">
+            <div class="modal-icon">✓</div>
+            <h3>Appointment Requested!</h3>
+            <p>Thank you for booking with Luxe Salon. We've received your request and will confirm via email/text within 2 hours during business hours.</p>
+            <button class="btn btn-primary" id="close-modal">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
